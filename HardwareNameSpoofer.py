@@ -69,7 +69,7 @@ def hardwareNameSpoofer_menu():
             print(f"    {Fore.GREEN}[+]{Style.RESET_ALL} CPU Name restored! Re-open Task Manager to apply.")
         elif choice == "3":
             banner(HARDWARESPOOFERSMALL_BANNER)
-            input(f"    {Fore.YELLOW}[*]{Style.RESET_ALL} Be careful, if you did not recover your CPU name before deleting it, you might not be able to restore it.\nPress Enter to continue...")
+            input(f"    {Fore.YELLOW}[*]{Style.RESET_ALL} Be careful, if you did not recover your CPU name before deleting it, you might not be able to restore it.\n    Press Enter to continue...")
             delete_backup()
             print(f"\n    {Fore.GREEN}[+]{Style.RESET_ALL} Backup key deleted.")
         elif choice == "b":
