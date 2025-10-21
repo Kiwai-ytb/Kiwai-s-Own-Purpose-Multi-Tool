@@ -22,7 +22,7 @@ ALL_CREDITS_BANNER = Colorate.Diagonal(Colors.blue_to_red, r"""
     ============================
 
     This Tool as only been made by myself aka Kiwai, I did it only for fun, it is not intented to be shared but if it is,
-    I hope it is useful and works welln shared with <3.
+    I hope it is useful and works well, shared with <3.
     
     Here are some of my links:
               
