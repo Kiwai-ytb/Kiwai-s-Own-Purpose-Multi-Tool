@@ -8,6 +8,7 @@ from HardwareNameSpoofer import hardwareNameSpoofer_menu
 from SerialChecker import serialChecker_menu
 from DiscordStuff import webhookSpammer_menu, webhookDestroyer_menu, webhookStatusChecker_menu, idToFirstTokenPart_menu
 from IpTracker import ipTracker_menu
+from NotificationMaker import notificationMaker_menu
 from Credits import credits_menu
 
 #Banners
@@ -54,7 +55,7 @@ DISCORDWEBHOOKS_BANNER = Colorate.Diagonal(Colors.blue_to_cyan, r"""
     | |) | (_-/ _/ _ | '_/ _` | \__ |  _| || |  _|  _|
     |___/|_/__\__\___|_| \__,_| |___/\__|\_,_|_| |_|  
     
-    ===========================
+    ==================================================
 
     [1] Webhook Spammer
     [2] Webhook Destroyer
@@ -69,11 +70,12 @@ MISC_BANNER = Colorate.Diagonal(Colors.blue_to_green, r"""
     | |\/| | (_-/ _|
     |_|  |_|_/__\__|    
 
-    =======================
+    ================
 
     [1] Serial Checker
     [2] Hardware Name Spoofer
     [3] IP Tracker
+    [4] Notification Maker
     [B] Back to Main Menu                  
 """, 1)
 
@@ -133,6 +135,8 @@ def main_menu():
                     hardwareNameSpoofer_menu()
                 elif choice == "3":
                     ipTracker_menu()
+                elif choice == "4":
+                    notificationMaker_menu()
                 elif choice == "b":
                     break
                 else:

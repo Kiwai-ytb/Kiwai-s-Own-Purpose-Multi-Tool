@@ -50,6 +50,7 @@ IPTRACKERSMALL_BANNER = Colorate.Diagonal(Colors.green_to_blue, r"""
     ========================================
 """, 1)
 
+# Menu
 def ipTracker_menu():
     while True:
         resize_and_center_console(150, 32)
